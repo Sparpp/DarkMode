@@ -6,3 +6,4 @@ DarkModeFixer is a simple chrome extension for my own personal use.
 -(Add gifs and such to illustrate these points, learn how to do this on markdown files)
 -Was there an easier way? Probably. But this was a great opportunity to practice some javascript/html!
 -Did you know the transformations involved in inversing these colours are irreversible? Try it out by flipping it back!
+-Icons were generated locally with stable diffusion methods!
