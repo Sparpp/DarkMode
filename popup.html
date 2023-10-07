@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+body{
+    min-width: 300px;
+    text-align: center;
+}
+h1{
+    font-family: 'Pixelify Sans';
+    font-weight: normal;
+    font-style: normal;
+}
+.green{
+    color:#00FF00
+}
+p, 
+.button{
+    font-family: 'MinecraftiaRegular', cursive;
+    font-weight:lighter;
+    font-size: small;
+}
+.button{
+    background-color: #8ABFF0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    width: 4.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.row{
+    padding: 0 0.25rem;
+    pointer-events: none;
+}
+.circle{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #588BE4;
+    pointer-events: none;
+}
+
+@keyframes moveCircleRight {
+    from {
+        left: 0;
+        background-color: #588BE4;
+    }
+
+    to {
+        left:100%;
+        transform:translateX(-100%);
+        background-color: #123499;
+    }
+}
+@keyframes moveCircleLeft {
+    from{
+        left:100%;
+        transform: translateX(-100%);
+        background-color: #123499;
+    }
+    to{
+        left:0;
+        background-color: #588BE4;
+    }
+}
+@keyframes backgroundCycle {
+    from{
+        background-color: #8ABFF0;
+    }
+    to{
+        background-color: #123499;
+    }
+}
+@keyframes backgroundDecycle {
+    from{
+        background-color: #123499;
+    }
+    to{
+        background-color: #8ABFF0;
+    }
+}
+
+</style>
+<body class = "popup">
+<h1><span class="green">DarkModeFixer</span></h1>
+<p>Got any funny looking images on this page? Use this to revert them back to normal :)</p>
+<div class="button">
+    <div class="row">On</div>
+    <div class="row">Off</div>
+    <div class="circle"></div>
+</div>
+</body>
+<script src="./contentScript.js"></script>
+</html>
