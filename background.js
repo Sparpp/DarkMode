@@ -21,20 +21,23 @@ try{
             });
           }
 
-          else if(request.command1 == "lighten") {
+          if(request.command1 == "lighten") {
             chrome.scripting.executeScript({
               files: ['appOff.js'],
+              target: {tabId: tab.id}
+            });
+          }
+
+          else if(request.command2 == "picker") {
+            chrome.scripting.executeScript({
+              files: ['appOn.js', 'appOff.js'],
               target: {tabId: tab.id}
             });
           }
         }
       );  
     }
-
   });
-
-
-
 }catch(e){
   console.log(e);
 }
