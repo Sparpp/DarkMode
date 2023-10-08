@@ -17,7 +17,7 @@ chrome://flags/#enable-force-dark flag.
 ## So...
 So I started working on this extension initially to fix image elements that broke from the chrome flag:
 <p align="center">
-  <img src="assets/brokenelement.png" width = "500px"/>
+  <img src="assets/brokenelement.PNG" width = "500px"/>
 </p>
 
 But it turns out you can fix that by changing the chrome flag from <strong>Enabled</strong> to <strong>Enabled with selective inversion of non-image elements</strong>
