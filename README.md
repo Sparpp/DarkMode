@@ -5,16 +5,16 @@ DarkMode is a simple chrome extension for my own personal use.
   <img src="assets/preview.gif" width = "300px"/>
 </p>
 
-#Usage
+# Usage
 The On/Off button toggles dark-mode on the current page you're viewing.
 
 The Planet button quickly toggles dark-mode on and off, offering an alternate colour palette to the page.
 
-##Why?
+## Why?
 Was there an easier way to achieve the same effect? Yes! Simply enable the 
 chrome://flags/#enable-force-dark flag.
 
-##So...
+## So...
 So I started working on this extension initially to fix image elements that broke from the chrome flag:
 <p align="center">
   <img src="assets/brokenelement.png" width = "500px"/>
@@ -24,7 +24,7 @@ But it turns out you can fix that by changing the chrome flag from <strong>Enabl
 
 Despite it all, this was still a good opportunity to practice my Javascript/CSS/HTML skills.
 
-###Fun facts
+### Fun facts
 <details>
 <summary>Fact 1</summary>
 
