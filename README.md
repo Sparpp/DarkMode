@@ -5,6 +5,7 @@ DarkMode is a simple chrome extension for my own personal use.
   <img src="assets/preview.gif" width = "300px"/>
 </p>
 
+You can add it from the Chrome extensions store [here]().
 # Usage
 The On/Off button toggles dark-mode on the current page you're viewing.
 
@@ -21,6 +22,8 @@ So I started working on this extension initially to fix image elements that brok
 </p>
 
 But it turns out you can fix that by changing the chrome flag from <strong>Enabled</strong> to <strong>Enabled with selective inversion of non-image elements</strong>
+
+Seems like I worked on this for nothing right? Well some websites still break here and there, with text becoming unreadable (as the background inverts colour but the text doesnt) which this extension can patch for me!
 
 Despite it all, this was still a good opportunity to practice my Javascript/CSS/HTML skills.
 
