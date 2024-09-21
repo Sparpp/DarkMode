@@ -5,7 +5,7 @@ DarkMode is a simple chrome extension for my own personal use.
   <img src="assets/preview.gif" width = "300px"/>
 </p>
 
-You can add it from the Chrome extensions store [here]().
+You can add it from the Chrome extensions store [here](https://chromewebstore.google.com/detail/darkmode/faefjgkkmbkmhemacjjnmcklnhcgoacn?authuser=1&hl=en&pli=1).
 # Usage
 The On/Off button toggles dark-mode on the current page you're viewing.
 
